@@ -184,10 +184,10 @@ library(RCurl)
 library(XML)
 
 #Register for xml key with Zillow and assign it to a 'key'
-key <- 'X1-ZWz19d402sfmrv_43hp8'
+key <- 'APIKEY'
 
 reply = getForm("http://www.zillow.com/webservice/GetRegionChildren.htm",
-                'zws-id' = "X1-ZWz19d402sfmrv_43hp8",
+                'zws-id' = "APIKEY",
                 state = "il",
                 city = "chicago",
                 childtype = "neighborhood")
